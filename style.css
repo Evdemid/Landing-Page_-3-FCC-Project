@@ -30,7 +30,7 @@ body {
     }
   }
 
-  /*Topography*/
+  /*-------Topography---------*/
 a {
     color: #303F9F;
     text-decoration: none;
@@ -67,44 +67,42 @@ h3 {
 }
 
 
-/* Layout */
-header {
-    background: #0097A7;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-img {
-    float: left;
-    width: 3%;
-    height: 3%;
-    border: solid 1px #00ACC1;
-    border-radius: 30%;
-    margin-right: 20px;
+/*-------*INPUT*--------/
+#email {
+    display: block;
+    margin: 0 auto;
 }
 
+#submit,
+.select {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #FFECB3;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
 button:hover, 
 button:active, 
 #submit:hover, 
 #submit:active {
     background-color: #FF5722;
-}
-
-button:hover,
-button:active {
     border: 2px solid #3E2723;
 }
 
-#header-img {
-    margin: 10px 20px 10px 40px;
-}
 
+/*------ Layout-------- */
 header {
     background: #0097A7;
     position: fixed;
     width: 100%;
     z-index: 1;
 }
+#header-img {
+    margin: 10px 20px 10px 40px;
+}
+
+
 
 #nav-bar,
 .footer-info {
@@ -118,6 +116,16 @@ li {
     display: inline-block;
     margin: 0 15px;
 }
+img {
+    float: left;
+    width: 3%;
+    height: 3%;
+    border: solid 1px #00ACC1;
+    border-radius: 30%;
+    margin-right: 20px;
+}
+
+
 
 main {
     position: relative;
@@ -127,18 +135,7 @@ main {
     padding-top: 15px;
 }
 
-#email {
-    display: block;
-    margin: 0 auto;
-}
 
-#submit {
-    display: block;
-    background-color: #FFECB3;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 auto;
-}
 
 .feature {
     display: flex;
@@ -176,14 +173,6 @@ main {
 }
 
 
-
-.select {
-    display: block;
-    background-color: #FFECB3;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 auto;
-}
 
 footer {
     background: #B2DFDB;
