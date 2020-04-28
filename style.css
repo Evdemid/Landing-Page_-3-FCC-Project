@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
     background-image: linear-gradient(to bottom right, #4DB6AC, #E0F2F1);
     color: #3E2723;
     box-sizing: border-box;
@@ -24,24 +26,54 @@ body {
     p {
       background: white;
       color: black;
-      font-size: 2em;
+      /*font-size: 2em;*/
     }
   }
+
+  /*Topography*/
 a {
+    color: #303F9F;
     text-decoration: none;
+}
+a:focus,
+a:hover {
+    color: #9E9E9E;    
 }
 
 h1 {
-    color: #3E2723;
     text-align: center;
+    font-size: 2rem;
 }
 
 
 h2 {
     margin-bottom: -15px;
     margin-top: -5px;
+    font-size: 1.5rem;
+    
+}
+h1,
+h2,
+h3,
+strong {
+    font-weight: 700;
+}
+h3 {
+    font-size: 1rem;
+    display: block;
+    background-color: #4DB6AC;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
 }
 
+
+/* Layout */
+header {
+    background: #0097A7;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
 img {
     float: left;
     width: 3%;
@@ -143,12 +175,7 @@ main {
     padding-top: 0;
 }
 
-h3 {
-    display: block;
-    background-color: #4DB6AC;
-    padding: 10px 20px 10px 20px;
-    margin: 0;
-}
+
 
 .select {
     display: block;
