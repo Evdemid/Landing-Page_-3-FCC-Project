@@ -51,7 +51,10 @@ img {
     margin-right: 20px;
 }
 
-button:hover, button:active, #submit:hover, #submit:active {
+button:hover, 
+button:active, 
+#submit:hover, 
+#submit:active {
     background-color: #FF5722;
 }
 
@@ -119,6 +122,9 @@ main {
 #video {
     display: block;
     margin: 70px auto;
+    width: 60%;
+    height: auto;
+
 }
 
 #options {
@@ -129,7 +135,9 @@ main {
 
 .option {
     border: 2px solid black;
-    margin: 5px;
+    margin: 3px;
+    width: 30%;
+    min-width: 150px;
     text-align: center;
     padding-bottom: 15px;
     padding-top: 0;
