@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: linear-gradient(to bottom right, #4DB6AC, #E0F2F1);
+    color: #3E2723;
+    box-sizing: border-box;
+}
+@media (light-level: normal) {
+    p {
+      background: url("texture.jpg");
+      color: #333;
+    }
+  }
+  
+  @media (light-level: dim) {
+    p {
+      background: #222;
+      color: #ccc;
+    }
+  }
+  
+  @media (light-level: washed) {
+    p {
+      background: white;
+      color: black;
+      font-size: 2em;
+    }
+  }
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #3E2723;
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom: -15px;
+    margin-top: -5px;
+}
+
+img {
+    float: left;
+    width: 3%;
+    height: 3%;
+    border: solid 1px #00ACC1;
+    border-radius: 30%;
+    margin-right: 20px;
+}
+
+button:hover, button:active, #submit:hover, #submit:active {
+    background-color: #FF5722;
+}
+
+button:hover,
+button:active {
+    border: 2px solid #3E2723;
+}
+
+#header-img {
+    margin: 10px 20px 10px 40px;
+}
+
+header {
+    background: #0097A7;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav-bar,
+.footer-info {
+    padding: 10px;
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+main {
+    position: relative;
+    top: 75px;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+#email {
+    display: block;
+    margin: 0 auto;
+}
+
+#submit {
+    display: block;
+    background-color: #FFECB3;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+#features {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#video {
+    display: block;
+    margin: 70px auto;
+}
+
+#options {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.option {
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+
+h3 {
+    display: block;
+    background-color: #4DB6AC;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+}
+
+.select {
+    display: block;
+    background-color: #FFECB3;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+footer {
+    background: #B2DFDB;
+    width: 70%;
+    height: 100px;
+    margin: 150px auto 0 auto;
+    clear: both;
+
+}
