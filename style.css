@@ -4,7 +4,7 @@ body {
     border: 0;
     font-family: 'Crimson Text', serif;
     font-size: 18px;
-    background-image: linear-gradient(to bottom right, #4DB6AC, #E0F2F1);
+    background: linear-gradient(to bottom right, #4DB6AC, #E0F2F1) fixed; 
     color: #3E2723;
     box-sizing: border-box;
 }
@@ -75,13 +75,20 @@ h3 {
 
 #submit,
 .select {
-    display: inline-block;
     padding: 5px 15px;
     background-color: #FFECB3;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 auto;
 }
+#submit {
+    display: block;
+}
+
+.select {
+    display: inline-block;
+}
+
 button:hover, 
 button:active, 
 #submit:hover, 
@@ -131,6 +138,7 @@ main {
     position: relative;
     top: 75px;
     width: 70%;
+    min-width: 400px;
     margin: 0 auto;
     padding-top: 15px;
 }
@@ -157,8 +165,7 @@ main {
 }
 
 #options {
-    display: flex;
-    width: 80%;
+    display: flex;    
     margin: 0 auto;
 }
 
@@ -166,7 +173,6 @@ main {
     border: 2px solid black;
     margin: 3px;
     width: 30%;
-    min-width: 150px;
     text-align: center;
     padding-bottom: 15px;
     padding-top: 0;
